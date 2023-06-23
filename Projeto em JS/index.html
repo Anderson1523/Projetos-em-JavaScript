@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+function imc (peso, altura,) {
+
+    var peso = prompt("Digite seu peso");
+    var altura = prompt("Digite sua altura");
+    return peso * (altura**2);
+
+}
+imc();
+var nome = (imc <18.9) ? "ABaixo do peso" : (imc > 18,5 &&imc <=24,9) ? "Normal" : (imc ==25 && imc <= 29.9) ? "Obesidade Grau I" : (imc ==35 && imc  <=40) ? "Obesidade Grau II" :
+(imc >40) ? "Obesidade Grau III" : "" ;
+console.log(nome);
+console.log("seu peso é"+imc());
+    
+    </script>
+</body>
+</html>

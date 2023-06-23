@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        
+   /* var data = new Date();
+    document.write(data.getDate()+'/'+(data.getMonth()+1)+'/'+(data.getFullYear()));
+    document.write("<br>");
+    document.write('horario de hoje: '+data.getHours()+':'+(data.getMinutes()));
+    document.write(data.toString());
+    data.setDate(data.getDate()+360); 
+    document.write('<hr>');
+    //meses
+    document.write(data.toString());    //23/3
+    document.write('<hr>');
+    data.setMonth(data.getMonth()+5);
+    document.write(data.toString());
+//  
+document.write('<br>');
+document.write('<br>');
+data.setFullYear(data.getFullYear()+5);
+document.write('<br>');
+document.write(data.toString());
+*/
+
+//23
+var data1 = new Date(2017, 0, 15);
+var data2 = new Date(2017, 2, 23);
+var miliseconds = Math.abs(data1.getTime() - data2.getTime());
+document.write(miliseconds);
+var milesencdspordia = (1*24*60*60*1000);
+document.write('1 dia tem :'+ milesencdspordia + 'miliseggundos');
+document.write('<br> /> <br>');
+
+document.write('<br> /> <br>');
+document.write(data1.toString());
+document.write('<br>');
+document.write(data2.toString());
+
+document.write(data1.getTime());
+document.write('<br>');
+document.write(data2.getTime());
+document.write('<br>');
+document.write('<br>');
+document.write('<br>');
+document.write("A diferença entre 2017/1/15 entre 2017/03/23 é "+Math.ceil(miliseconds / milesencdspordia)+"dia(s)");
+
+    </script>
+</body>
+</html>
